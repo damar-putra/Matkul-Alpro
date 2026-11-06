@@ -57,7 +57,7 @@ def login():
                 
 
     if not username_ditemukan:
-        print("\n>> Akun tidak ditemukan. Anda akan di alihkan ke laman login!")
+        print("\n>> Akun tidak ditemukan. Anda akan di alihkan ke laman registrasi!")
         input("Tekan Enter untuk melanjutkan!...")
 
         berhasil_regis = registrasi()
